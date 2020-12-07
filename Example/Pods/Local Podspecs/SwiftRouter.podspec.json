@@ -1,0 +1,24 @@
+{
+  "name": "SwiftRouter",
+  "version": "0.0.7",
+  "summary": "A short description of SwiftRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/onewh/SwiftRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "onewh": "wh@addcn.com"
+  },
+  "source": {
+    "git": "https://github.com/onewh/SwiftRouter.git",
+    "tag": "0.0.7"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.1",
+  "source_files": "Sources/SwiftRouter/*",
+  "swift_version": "5.1"
+}

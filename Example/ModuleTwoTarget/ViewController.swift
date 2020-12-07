@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import SwiftRouter
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+            Router.route(ModuleTwoTarget.colorfulPage(.blue))
+        }
         // Do any additional setup after loading the view, typically from a nib.
     }
 

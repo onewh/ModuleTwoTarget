@@ -1,0 +1,27 @@
+{
+  "name": "ModuleTwoTarget",
+  "version": "0.1.0",
+  "summary": "A short description of ModuleTwoTarget.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/onewh/ModuleTwoTarget",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "onewh": "wh@addcn.com"
+  },
+  "source": {
+    "git": "https://github.com/onewh/ModuleTwoTarget.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ModuleTwoTarget/Classes/**/*",
+  "dependencies": {
+    "SwiftRouter": [
+
+    ]
+  }
+}

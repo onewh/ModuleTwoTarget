@@ -1,0 +1,6 @@
+framework module ModuleTwoTarget {
+  umbrella header "ModuleTwoTarget-umbrella.h"
+
+  export *
+  module * { export * }
+}

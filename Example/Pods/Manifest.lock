@@ -1,0 +1,28 @@
+PODS:
+  - ModuleTwoTarget (0.1.0):
+    - SwiftRouter
+  - SwiftRouter (0.0.7)
+
+DEPENDENCIES:
+  - ModuleTwoTarget (from `../`)
+  - SwiftRouter (from `https://github.com/onewh/SwiftRouter.git`, tag `0.0.7`)
+
+EXTERNAL SOURCES:
+  ModuleTwoTarget:
+    :path: "../"
+  SwiftRouter:
+    :git: https://github.com/onewh/SwiftRouter.git
+    :tag: 0.0.7
+
+CHECKOUT OPTIONS:
+  SwiftRouter:
+    :git: https://github.com/onewh/SwiftRouter.git
+    :tag: 0.0.7
+
+SPEC CHECKSUMS:
+  ModuleTwoTarget: 296db72bb9ba48bea252100d34fd2821bdfb5a11
+  SwiftRouter: 61d26125744087cbda8257ef23cb6347e5b20d8e
+
+PODFILE CHECKSUM: bf89c178e79ba891ff869e21742c9bcc2455b440
+
+COCOAPODS: 1.10.0

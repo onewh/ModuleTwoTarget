@@ -1,8 +1,10 @@
 use_frameworks!
+source = 'https://github.com/onewh/SwiftRouter.git'
 
-platform :ios, '9.0'
+platform :ios, '13.0'
 
 target 'ModuleTwoTarget_Example' do
+  pod 'SwiftRouter', :git => 'https://github.com/onewh/SwiftRouter.git',:tag => '0.0.7'
   pod 'ModuleTwoTarget', :path => '../'
 
   target 'ModuleTwoTarget_Tests' do
